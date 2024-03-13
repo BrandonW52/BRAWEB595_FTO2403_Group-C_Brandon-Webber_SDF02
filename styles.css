@@ -33,7 +33,10 @@ body {
   padding: 80px;
   border-radius: 10px;
   width: 80%;
-  position: relative;
+
+  /*Replaced relative positionnig with FlexBox*/
+  display: flex;
+  justify-content: space-around;
 }
 
 .pastry {
@@ -41,7 +44,7 @@ body {
   padding: 20px;
   border-radius: 50%;
   font-size: 18px;
-  position: absolute;
+  /*Replaced relative positionnig with FlexBox*/
 }
 
 .pastry img {
@@ -51,28 +54,24 @@ body {
 
 .pastry1 {
   /* Cookie */
-  top: 0;
-  left: 0;
+  /*Replaced relative positionnig with FlexBox*/
   background-color: #f0bb7f;
 }
 
 .pastry2 {
   /* Brownie */
-  top: 0;
-  right: 0;
+  /*Replaced relative positionnig with FlexBox*/
   background-color: #7f553f;
 }
 
 .pastry3 {
   /* Cupcake */
-  bottom: 0;
-  left: 0;
+  /*Replaced relative positionnig with FlexBox*/
   background-color: #f0a8be;
 }
 
 .pastry4 {
   /* Jelly Roll */
-  bottom: 0;
-  right: 0;
+  /*Replaced relative positionnig with FlexBox*/
   background-color: #7fa8f0;
 }
